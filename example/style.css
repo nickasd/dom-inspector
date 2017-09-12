@@ -1,0 +1,30 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+.left {
+	float: left;
+	height: 100%;
+	width: 50%;
+}
+
+.right {
+	box-sizing: border-box;
+	border-left: 1px solid black;
+	float: right;
+	height: 100%;
+	width: 50%;
+}
+
+#iframe {
+	border: 0;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+._highlighted_ {
+	background: rgba(0, 0, 255, 0.65);
+}

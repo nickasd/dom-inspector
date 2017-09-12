@@ -1,0 +1,28 @@
+a {
+	display: block;
+}
+
+.node .indent {
+	display: inline-block;
+	width: 2em;
+}
+
+.node .children {
+	display: none;
+}
+
+.node.expanded > .children {
+	display: block;
+}
+
+.node.expanded > .opentag > .placeholder {
+	display: none;
+}
+
+.node.hidden {
+	display: none;
+}
+
+.node.selected {
+	background: #ff9898;
+}

@@ -1,0 +1,25 @@
+{
+	"name": "dom-inspector",
+	"version": "1.0.0",
+	"description": "A DOM inspector for the browser.",
+	"main": "dom-inspector.js",
+	"scripts": {
+		"start": "cd example && browserify client.js -o dist/bundle.js && node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/nickasd/dom-inspector.git"
+	},
+	"keywords": [
+		"dom inspector"
+	],
+	"author": "Nicolas Kick",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/nickasd/dom-inspector/issues"
+	},
+	"devDependencies": {
+		"browserify": "^14.4.0",
+		"express": "^4.15.2"
+	}
+}
